@@ -15,25 +15,25 @@ import json
 import re
 
 BANNER = "TAVARDT Brasil: Auditor e Sanitizador de Prompts e Guardrails de IA"
-DESC = "Audita prompts de sistema e entradas de usuario contra prompt injection e vazamentos."
-PROMPT_HELP = "Texto do prompt para auditoria de seguranca"
+DESC = "Audita prompts de sistema e entradas de usuário contra prompt injection e vazamentos."
+PROMPT_HELP = "Texto do prompt para auditoria de segurança"
 FILE_HELP = "Caminho de arquivo local contendo o prompt a analisar"
-JSON_HELP = "Exibir saida em formato estruturado JSON"
-NO_INPUT_ERR = "Erro: forneca um prompt via --prompt, --file ou canal de entrada stdin."
-SCORE_LABEL = "Pontuacao de Robustez Defensiva"
+JSON_HELP = "Exibir saída em formato estruturado JSON"
+NO_INPUT_ERR = "Erro: forneça um prompt via --prompt, --file ou canal de entrada stdin."
+SCORE_LABEL = "Pontuação de Robustez Defensiva"
 STATUS_PASS = "ROBUSTO"
 STATUS_WARN = "VULNERABILIDADE MODERADA"
-STATUS_FAIL = "VULNERABILIDADE CRITICA"
-THREATS_HEADER = "Ameacas e Vetores Hostis Detectados"
+STATUS_FAIL = "VULNERABILIDADE CRÍTICA"
+THREATS_HEADER = "Ameaças e Vetores Hostis Detectados"
 NO_THREATS_MSG = "Nenhum vetor hostil ou assinatura de prompt injection detectada."
-FOOTER_PAGES = "Aplicacao Web Oficial no GitHub Pages"
+FOOTER_PAGES = "Aplicação Web Oficial no GitHub Pages"
 FOOTER_PORTAL = "Portal Corporativo TAVARDT Brasil"
 
-THREAT_DIRECT = "Tentativa de sobrescrita direta de instrucoes de sistema identificada."
-THREAT_LEAK = "Tentativa de extracao ou vazamento do prompt de sistema identificada."
-THREAT_TOKENS = "Presenca de marcadores estruturais ou delimitadores especiais de chat."
-THREAT_EXFIL = "Vetor de exfiltracao de dados via carregamento forjado de imagem markdown."
-THREAT_ROLEPLAY = "Tentativa de evasao de seguranca via personificacao irrestrita (jailbreak)."
+THREAT_DIRECT = "Tentativa de sobrescrita direta de instruções de sistema identificada."
+THREAT_LEAK = "Tentativa de extração ou vazamento do prompt de sistema identificada."
+THREAT_TOKENS = "Presença de marcadores estruturais ou delimitadores especiais de chat."
+THREAT_EXFIL = "Vetor de exfiltração de dados via carregamento forjado de imagem markdown."
+THREAT_ROLEPLAY = "Tentativa de evasão de segurança via personificação irrestrita (jailbreak)."
 
 def audit_prompt_text(text):
     threats = []
