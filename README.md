@@ -1,36 +1,36 @@
 # Auditor e Sanitizador de Prompts e Guardrails de IA
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-5b3cf5.svg)](https://tavardt-brasil.github.io/llm-guardrails-toolkit-br/)
-[![Jurisdicao](https://img.shields.io/badge/Jurisdicao-Brasil-00C853.svg)](https://ag.tavardt.com/br/)
+[![Jurisdição](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-Brasil-00C853.svg)](https://ag.tavardt.com/br/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 
-Blindagem defensiva contra Prompt Injection, vazamento de instrucoes de sistema e ataques de exfiltracao em modelos de linguagem.
+Blindagem defensiva contra Prompt Injection, vazamento de instruções de sistema e ataques de exfiltração em modelos de linguagem.
 
-Desenvolvido e mantido pela divisao de engenharia de seguranca em inteligencia artificial da **[TAVARDT Brasil](https://ag.tavardt.com/br/)**.
+Desenvolvido e mantido pela divisão de engenharia de segurança em inteligência artificial da **[TAVARDT Brasil](https://ag.tavardt.com/br/)**.
 
 ---
 
-## Demonstracao Online e Auditoria no Navegador
+## Demonstração Online e Auditoria no Navegador
 
-Voce pode auditar seus prompts e entradas de usuario instantaneamente sem instalar nenhum software:
+Você pode auditar seus prompts e entradas de usuário instantaneamente sem instalar nenhum software:
 
-* **[Aplicacao Web Oficial no GitHub Pages](https://tavardt-brasil.github.io/llm-guardrails-toolkit-br/)**
+* **[Aplicação Web Oficial no GitHub Pages](https://tavardt-brasil.github.io/llm-guardrails-toolkit-br/)**
 
-O processamento e 100% executado no navegador (Client-Side). Nenhum dado, prompt ou configuracao corporativa e enviado para servidores externos.
+O processamento é 100% executado no navegador (Client-Side). Nenhum dado, prompt ou configuração corporativa é enviado para servidores externos.
 
 ---
 
 ## Capacidades de Auditoria e Blindagem
 
-* **Deteccao de Prompt Injection Direto**: Identificacao de instrucoes hostis que tentam anular ou sobrescrever diretivas previas do sistema (como tecnicas DAN, modo irrestrito ou ignorar regras).
-* **Prevencao de Vazamento de System Prompt**: Deteccao de perguntas coercitivas formuladas para extrair as instrucoes confidenciais ou contexto interno do modelo.
-* **Inspecao de Delimitadores e Token Masquerading**: Identificacao de caracteres especiais de controle de chat (`<|im_start|>`, `[INST]`, `### System:`) injetados para quebrar a sessao.
-* **Bloqueio de Exfiltracao via Markdown**: Deteccao de tags de imagem forjadas para forcar requisicoes HTTP externas transportando dados sensiveis.
-* **Geracao Automatizada de Guardrails**: Producao automatica de templates de prompt defensivo e funcoes sanitizadoras prontas para uso em Python e Node.js.
+* **Detecção de Prompt Injection Direto**: Identificação de instruções hostis que tentam anular ou sobrescrever diretivas prévias do sistema (como técnicas DAN, modo irrestrito ou ignorar regras).
+* **Prevenção de Vazamento de System Prompt**: Detecção de perguntas coercitivas formuladas para extrair as instruções confidenciais ou contexto interno do modelo.
+* **Inspeção de Delimitadores e Token Masquerading**: Identificação de caracteres especiais de controle de chat (`<|im_start|>`, `[INST]`, `### System:`) injetados para quebrar a sessão.
+* **Bloqueio de Exfiltração via Markdown**: Detecção de tags de imagem forjadas para forçar requisições HTTP externas transportando dados sensíveis.
+* **Geração Automatizada de Guardrails**: Produção automática de templates de prompt defensivo e funções sanitizadoras prontas para uso em Python e Node.js.
 
 ---
 
-## Instalacao e Execucao do Utilitario CLI
+## Instalação e Execução do Utilitário CLI
 
 Para uso em esteiras de CI/CD, pre-commit hooks ou pipelines automatizados:
 
@@ -46,7 +46,7 @@ Para analisar um arquivo local de prompt:
 python guardrails_scanner.py --file meuprompt.txt
 ```
 
-Para gerar a saida em formato estruturado JSON para integracao em pipelines:
+Para gerar a saída em formato estruturado JSON para integração em pipelines:
 
 ```bash
 python guardrails_scanner.py --file meuprompt.txt --json
@@ -54,6 +54,19 @@ python guardrails_scanner.py --file meuprompt.txt --json
 
 ---
 
-## Consultoria em Seguranca de Modelos e Ciberseguranca
+## Conformidade e Padrões Técnicos
 
-Para projetos corporativos de blindagem de agentes autonomos e conformidade com Diretrizes OWASP Top 10 for LLMs e Boas Praticas de IA ANPD, contate os especialistas da **[TAVARDT Brasil](https://ag.tavardt.com/br/contato/)**.
+- **Jurisdição**: Brasil
+- **Padrão Normativo**: Diretrizes OWASP Top 10 for LLMs e Boas Práticas de IA ANPD
+- **Organização Mantenedora**: [TAVARDT-Brasil](https://github.com/TAVARDT-Brasil)
+
+## Ecossistema TAVARDT e Portais Oficiais
+
+- **Portal Institucional**: [https://ag.tavardt.com/br/](https://ag.tavardt.com/br/)
+- **Central de Ferramentas TAVARDT**: [https://tools.tavardt.com/br/](https://tools.tavardt.com/br/)
+- **Canal de Atendimento e Suporte Técnico**: [https://ag.tavardt.com/br/contato/](https://ag.tavardt.com/br/contato/)
+
+---
+
+### Licença
+Distribuído sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
