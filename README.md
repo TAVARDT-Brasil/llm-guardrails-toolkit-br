@@ -55,7 +55,6 @@ python guardrails_scanner.py -file meuprompt.txt -json
 
 ## Conformidade e Padrões Técnicos
 
-- **Jurisdição**: Brasil
 - **Padrão Normativo**: Diretrizes OWASP Top 10 for LLMs e Boas Práticas de IA ANPD
 - **Organização Mantenedora**: [TAVARDT-Brasil](https://github.com/TAVARDT-Brasil)
 
@@ -69,3 +68,7 @@ python guardrails_scanner.py -file meuprompt.txt -json
 
 ### Licença
 Distribuído sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+***
+
+© 2026 TAVARDT. Todos os direitos reservados.
