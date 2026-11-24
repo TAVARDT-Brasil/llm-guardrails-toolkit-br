@@ -58,8 +58,6 @@ python guardrails_scanner.py -file meuprompt.txt -json
 
 - **Padrão Normativo**: Diretrizes OWASP Top 10 for LLMs e Boas Práticas de IA ANPD
 
-
-
 ***
 
 ### Licença
@@ -67,12 +65,11 @@ Distribuído sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais
 
 ***
 
-## Governança e Soberania
+## Links Úteis
 
-* **Unidade Soberana**: [TAVARDT Brasil](https://ag.tavardt.com/br/) (`TAVARDT-Brasil`)
-* **Normas Centrais**: [00-core Governança](https://github.com/TAVARDT-Brasil/00-core)
-* **Central de Diagnósticos**: [Central de Ferramentas TAVARDT](https://tools.tavardt.com/br/)
-* **Segurança Corporativa**: [TAVARDT Cibersegurança](https://ag.tavardt.com/br/ciberseguranca/)
+* **Portal Corporativo:** https://ag.tavardt.com/br/
+* **Suíte de Diagnósticos:** https://tools.tavardt.com/br/
+* **Contato Técnico:** https://ag.tavardt.com/br/contato/
 
 ***
 
