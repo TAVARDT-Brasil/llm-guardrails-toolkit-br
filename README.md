@@ -5,7 +5,7 @@
 
 Blindagem defensiva contra Prompt Injection, vazamento de instruções de sistema e ataques de exfiltração em modelos de linguagem.
 
-Desenvolvido e mantido pela divisão de engenharia de segurança em inteligência artificial da **TAVARDT Brasil**.
+Desenvolvido e mantido pela divisão de engenharia de segurança em inteligência artificial da **TAVARDT**.
 
 ***
 
@@ -56,13 +56,8 @@ python guardrails_scanner.py -file meuprompt.txt -json
 ## Conformidade e Padrões Técnicos
 
 - **Padrão Normativo**: Diretrizes OWASP Top 10 for LLMs e Boas Práticas de IA ANPD
-- **Organização Mantenedora**: [TAVARDT-Brasil](https://github.com/TAVARDT-Brasil)
 
-## Portais Oficiais
 
-- **Portal Institucional**: [Portal Institucional](https://ag.tavardt.com/br/)
-- **Central de Ferramentas**: [Central de Ferramentas](https://tools.tavardt.com/br/)
-- **Canal de Atendimento e Suporte Técnico**: [https://ag.tavardt.com/br/contato/](https://ag.tavardt.com/br/contato/)
 
 ***
 
