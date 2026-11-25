@@ -60,11 +60,6 @@ python guardrails_scanner.py -file meuprompt.txt -json
 
 ***
 
-### Licença
-Distribuído sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-***
-
 ## Links Úteis
 
 * **Portal Corporativo:** https://ag.tavardt.com/br/
