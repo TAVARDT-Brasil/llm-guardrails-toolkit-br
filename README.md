@@ -6,8 +6,6 @@
 
 Blindagem defensiva contra Prompt Injection, vazamento de instruções de sistema e ataques de exfiltração em modelos de linguagem.
 
-Desenvolvido e mantido pela divisão de engenharia de segurança em inteligência artificial da **TAVARDT**.
-
 ***
 
 ## Demonstração Online e Auditoria no Navegador
@@ -69,7 +67,7 @@ python guardrails_scanner.py -file meuprompt.txt -json
 ***
 
 ### Licença
-Distribuído sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes completos.
+Distribuído sob a Licença MIT.
 
 ***
 
